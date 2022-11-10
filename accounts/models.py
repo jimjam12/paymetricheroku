@@ -69,7 +69,7 @@ class User(AbstractBaseUser):
     employee = models.BooleanField(default=False)
     admin = models.BooleanField(default=False)
     timestamp = models.DateTimeField(auto_now_add=True)
-    pay_per_day1 = models.DecimalField(null=True, max_digits=5, decimal_places=2)
+    pay_per_day1 = models.DecimalField(null=True, max_digits=15, decimal_places=2)
     sick_leave = models.IntegerField(null=True)
     vacation_leave = models.IntegerField(null=True)
     tax_rate = models.DecimalField(null=True , max_digits=5, decimal_places=2)
