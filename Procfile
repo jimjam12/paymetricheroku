@@ -1,1 +1,1 @@
-web: gunicorn Paymetricv2.wsgi
+web:gunicorn Paymetricv2.wsgi
