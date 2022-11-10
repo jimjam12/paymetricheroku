@@ -1,1 +1,1 @@
-python-3.10.8
+python-    heroku addons:create heroku-postgresql:hobby-dev3.10.8
