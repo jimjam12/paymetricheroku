@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df49da14-27aa-440e-9138-7dc89497eb90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Paymetricv2/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Paymetricv2/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,7 @@
       <workItem from="1668044941654" duration="15000" />
       <workItem from="1668044988419" duration="1416000" />
       <workItem from="1668046428578" duration="10844000" />
-      <workItem from="1668117134659" duration="4290000" />
+      <workItem from="1668117134659" duration="4795000" />
     </task>
     <task id="LOCAL-00001" summary="`changes 1025`">
       <created>1666956660870</created>
@@ -134,12 +134,12 @@
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1668051797754" />
     <state x="686" y="214" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1666627160433" />
     <state x="549" y="172" key="FileChooserDialogImpl/1920.0.1366.730/0.0.1536.834@0.0.1536.834" timestamp="1668121135776" />
-    <state x="277" y="59" key="SettingsEditor" timestamp="1668121149463">
+    <state x="277" y="59" key="SettingsEditor" timestamp="1668121766359">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1668058468531" />
     <state x="346" y="74" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1666627535966" />
-    <state x="277" y="59" key="SettingsEditor/1920.0.1366.730/0.0.1536.834@0.0.1536.834" timestamp="1668121149463" />
+    <state x="277" y="59" key="SettingsEditor/1920.0.1366.730/0.0.1536.834@0.0.1536.834" timestamp="1668121766359" />
     <state x="660" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1666631942289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
