@@ -16,8 +16,7 @@
     {% endif %}
 
     {% if request.user.is_employee %}
-    <a href="{% url 'contact' %}">Request</a>
-    <a href="{% url 'attendance' %}">Attendance</a>
+    <a href="{% url 'request_leave' %}">Request Leave</a>
     {% endif %}
 
         {% if request.user.is_admin %}
@@ -28,9 +27,9 @@
 
         {% if request.user.is_hr %}
     <a href="{% url 'requests' %}">Employee Requests</a>
-    <a href="{% url 'attendance' %}">Attendance</a>
         {% endif %}
 
+    <a href="{% url 'attendance' %}">Attendance</a>
     <a href="{% url 'logout' %}">Logout</a>
 </div>
 </div>

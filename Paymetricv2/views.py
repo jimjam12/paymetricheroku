@@ -198,7 +198,7 @@ def requests(request):
 
     return render(request, "emp_requests/requests.html", {'d1': context, 'qs': qs})
 
-def Adminrequests(request):
+def adminrequests(request):
     qs = RequestLeave.objects.filter(IsApproved=True, AdminApproved=False, AdminDeclined=False)
     try:
         q = RequestLeave.objects.filter(AdminApproved=False).order_by('-id')[0]

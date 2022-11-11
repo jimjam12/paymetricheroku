@@ -27,7 +27,7 @@
 </table>
 
 {% if query.timeIn and query.timeOut %}
-    Nag Attendance kana
+    You have already logged-in and logged-out
 
 {% elif query.timeIn %}
     <a href="{% url 'clock-out' %}">Time Out</a>

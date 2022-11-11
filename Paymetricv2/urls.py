@@ -12,7 +12,7 @@ from . import views
 urlpatterns = [
     path('', startup),
     path('home/', home_page, name='home_page'),
-    path('contact/', contact, name='contact'),
+    path('request_leave/', contact, name='emp_requests/request_leave'),
     path('register/', RegisterView.as_view(), name='register'),
     path('my_info/', detailed, name='my_info'),
     path('user_info/', userinformation, name='userinformation'),
@@ -21,6 +21,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('users/', list_user, name='list_user'),
+    path('user_info/<int:id>', userinformation, name='details/detailed_view'),
+
     path('update/updaterecord/<int:id>', updaterecord, name='updaterecord'),
     path('update/<int:id>', update, name='update'),
     path('delete/<int:id>', delete, name='delete'),
@@ -31,10 +33,8 @@ urlpatterns = [
     path('admin-leave-decline/<int:id>', AdminleaveDecline, name='AdminleaveDecline'),
 
     path('emp_requests/', views.request_leave, name='request_leave'),
-    # path('emp_requests/requests', views.requests, name='requests'),
 
     path('requests/', requests, name='requests'),
-    # path('requests/request_leave', request_leave, name='request_leave'),
 
     path('attendance/', attendance, name='attendance'),
     path('clock-in/', clockIn, name='clock-in'),

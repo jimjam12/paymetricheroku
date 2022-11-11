@@ -35,8 +35,10 @@
     </thead>
     <tbody>
 
+
+    {% if request.user.is_hr %}
         {% for foo in qs %}
-        <tr>
+            <tr>
 {#            <td data-label="ID"><{{ foo.id }}/td>#}
             <td data-label="Email">{{ foo.emp_email }}</td>
             <td data-label="Name">{{ foo.emp_name }}</td>
@@ -52,6 +54,30 @@
             </td>
         </tr>
         {% endfor %}
+        {% endif %}
+
+    {% if request.user.is_admin %}
+        {% for foo in qs %}
+            <tr>
+{#            <td data-label="ID"><{{ foo.id }}/td>#}
+            <td data-label="Email">{{ foo.emp_email }}</td>
+            <td data-label="Name">{{ foo.emp_name }}</td>
+            <td data-label="Start of Leave">{{ foo.emp_leaveDateStart }}</td>
+            <td data-label="End of Leave">{{ foo.emp_leaveDateEnd }}</td>
+            <td data-label="Type of Leave">{{ foo.typeOf_leave }}</td>
+            <td data-label="Reason">{{ foo.reasonFor_leave }}</td>
+            <td>
+                    <button onclick="location.href='{% url 'AdminleaveApprove' foo.id %}'">Approve</button>
+            </td>
+            <td>
+                <button onclick="location.href='{% url 'AdminleaveDecline' foo.id %}'">Reject</button>
+            </td>
+        </tr>
+        {% endfor %}
+
+        {% endif %}
+
+
     </tbody>
 </table>
 

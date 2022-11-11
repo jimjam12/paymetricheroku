@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="df49da14-27aa-440e-9138-7dc89497eb90" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paymetricv2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Paymetricv2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paymetricv2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Paymetricv2/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/attendance/attendance.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/attendance/attendance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/details/detailed_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/details/detailed_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/emp_requests/requests.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/emp_requests/requests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_info/my_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_info/my_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Paymetric-1025" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Paymetric-1109" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -99,7 +107,7 @@
       <workItem from="1668044941654" duration="15000" />
       <workItem from="1668044988419" duration="1416000" />
       <workItem from="1668046428578" duration="10844000" />
-      <workItem from="1668117134659" duration="5454000" />
+      <workItem from="1668117134659" duration="14108000" />
     </task>
     <task id="LOCAL-00001" summary="`changes 1025`">
       <created>1666956660870</created>
@@ -127,12 +135,12 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="393" y="11" key="CommitChangelistDialog2/1920.0.1366.730/0.0.1536.834@0.0.1536.834" timestamp="1666956659924" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1668121135776">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1668133933887">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1668051797754" />
     <state x="686" y="214" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1666627160433" />
-    <state x="549" y="172" key="FileChooserDialogImpl/1920.0.1366.730/0.0.1536.834@0.0.1536.834" timestamp="1668121135776" />
+    <state x="549" y="172" key="FileChooserDialogImpl/1920.0.1366.730/0.0.1536.834@0.0.1536.834" timestamp="1668133933887" />
     <state x="277" y="59" key="SettingsEditor" timestamp="1668121766359">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

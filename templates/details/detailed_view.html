@@ -15,16 +15,56 @@
           .button3{
               margin-left:220px;
           }
+          .currentuser{
+              margin-left: 220px;
+              font-size: 20px;
+          }
+
+          .head-title{
+              margin-left: 220px;
+              font-size: 30px;
+              font-weight: bold;
+          }
       </style>
   </head>
+
+
+
   <body>
-    {% include 'navbar.html' %}
-    <button class="button3">
+  {% include 'navbar.html' %}
+  <h2 class="title">
+      {{ course.ctitle }}
+  </h2>
+  <button class="button3">
     <a href="../users">Return to User List</a>
     </button>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+<p class="head-title">USER INFORMATION</p>
+<p class="currentuser">Full name: {{ qs.first_name }} {{ qs.middle_name }} {{ qs.last_name }}</p>
+<p class="currentuser">Email: {{ qs.email }}</p>
+<p class="currentuser">Nationality: {{ qs.nationality }}</p>
+<p class="currentuser">Birthdate: {{ qs.birth_date }}</p>
+<p class="currentuser">Address: {{ qs.address }}</p>
+<p class="currentuser">Gender: {{ qs.gender }}</p>
+<p class="currentuser">Pay Per Day: {{ qs.pay_per_day1 }}</p>
+<p class="currentuser">Number of total attendance *insert attendance shit here* </p>
+<p class="currentuser">Number of Sick Leave: {{ qs.sick_leave }}</p>
+<p class="currentuser">Number of Vacation Leave: {{ qs.vacation_leave }}</p>
+<p class="currentuser">Tax rate Deductions: {{ qs.tax_rate }}</p>
+<p class="currentuser">Total Pay: {{ total }}</p>
+
+<p class="currentuser">Tax Pay: {{ taxpay }}</p>
 
   </body>
+  {% if attendance and attendance.locked %}
 
-</html>
+  <form method="post">
+    {% csrf_token %}
+  <button class="button3" type="submit">Remove attendance updating restrictions
+    </button>
+
+  </form>
+  {% endif %}
+  </html>
+
