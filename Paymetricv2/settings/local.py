@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-j6^oohzp8k^bc%)cp#wj(u*4$ugxhp9#&0x2fjr9)b=x)jb2e#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'accounts',
-
+    'calculation',
 
 ]
 
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'Paymetricv2.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': [os.path.join(BASE_DIR, 'templates')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
