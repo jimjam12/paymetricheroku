@@ -22,7 +22,6 @@
         {% if request.user.is_admin %}
     <a href="{% url 'register' %}">Register Employee</a>
     <a href="{% url 'list_user' %}">Employee List</a>
-    <a href="{% url 'requests' %}">Employee Requests</a>
         {% endif %}
 
         {% if request.user.is_hr %}

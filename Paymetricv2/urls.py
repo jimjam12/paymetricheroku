@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 
-from .views import home_page, contact, startup, list_user, update, delete, updaterecord, detailed, userinformation, requests, leaveApprove, leaveDecline, AdminleaveApprove, AdminleaveDecline
+from .views import home_page, contact, startup, list_user, update, delete, updaterecord, detailed, list_requests, leaveApprove, leaveDecline, AdminleaveApprove, AdminleaveDecline, testFunction
 from accounts.views import RegisterView, login_page, attendance, clockIn, clockOut
 from django.contrib.auth import views as auth_views
 
@@ -15,13 +15,14 @@ urlpatterns = [
     path('request_leave/', contact, name='emp_requests/request_leave'),
     path('register/', RegisterView.as_view(), name='register'),
     path('my_info/', detailed, name='my_info'),
-    path('user_info/', userinformation, name='userinformation'),
+    # path('user_info/', user_info, name='user_info'),
     path('login/', login_page, name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name="auth/logout.html"), name='logout'),
     path('admin/', admin.site.urls),
 
     path('users/', list_user, name='list_user'),
-    path('user_info/<int:id>', userinformation, name='details/detailed_view'),
+    # path('user_info/<int:pk>', UserDetailView.as_view(), name='user_detailed'),
+    path('user_page/<int:id>', testFunction, name='testFunction'),
 
     path('update/updaterecord/<int:id>', updaterecord, name='updaterecord'),
     path('update/<int:id>', update, name='update'),
@@ -34,7 +35,7 @@ urlpatterns = [
 
     path('emp_requests/', views.request_leave, name='request_leave'),
 
-    path('requests/', requests, name='requests'),
+    path('requests/', list_requests, name='list_requests'),
 
     path('attendance/', attendance, name='attendance'),
     path('clock-in/', clockIn, name='clock-in'),

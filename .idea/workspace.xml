@@ -2,15 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df49da14-27aa-440e-9138-7dc89497eb90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static_my_project/img/logo_cream3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paymetricv2/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Paymetricv2/settings/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Paymetricv2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Paymetricv2/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Paymetricv2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Paymetricv2/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/attendance/attendance.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/attendance/attendance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_my_project/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static_my_project/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_my_project/css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/static_my_project/css/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/list_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/list_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/details/detailed_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/details/detailed_view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/emp_requests/requests.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/emp_requests/requests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/employee/employee_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/home_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/my_info/my_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_info/my_info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/startup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/startup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +57,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Paymetric-1109" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jaz\Desktop\Working version\Test\Paymetric-1025 recent - Copy (2)\static_my_project\img" />
       <recent name="C:\Users\Jaz\Desktop\Paymetric-1025 recent\Paymetricv2\settings" />
     </key>
   </component>
@@ -107,7 +123,9 @@
       <workItem from="1668044941654" duration="15000" />
       <workItem from="1668044988419" duration="1416000" />
       <workItem from="1668046428578" duration="10844000" />
-      <workItem from="1668117134659" duration="14108000" />
+      <workItem from="1668117134659" duration="25250000" />
+      <workItem from="1668146220779" duration="2202000" />
+      <workItem from="1668154266087" duration="16972000" />
     </task>
     <task id="LOCAL-00001" summary="`changes 1025`">
       <created>1666956660870</created>
@@ -155,9 +173,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="463" y="149" width="609" height="536" key="find.popup/1920.0.1366.730/0.0.1536.834@0.0.1536.834" timestamp="1668121404005" />
-    <state x="425" y="71" width="672" height="676" key="search.everywhere.popup" timestamp="1666623070300">
+    <state x="425" y="71" width="672" height="676" key="search.everywhere.popup" timestamp="1668167372370">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="425" y="71" width="672" height="676" key="search.everywhere.popup/1920.0.1366.730/0.0.1536.834@0.0.1536.834" timestamp="1666623070300" />
+    <state x="425" y="71" width="672" height="676" key="search.everywhere.popup/1920.0.1366.730/0.0.1536.834@0.0.1536.834" timestamp="1668167372370" />
   </component>
 </project>

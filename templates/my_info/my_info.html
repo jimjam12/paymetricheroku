@@ -9,13 +9,21 @@
         .currentuser{
             margin-left: 220px;
             font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
 
         .head-title{
             margin-left: 220px;
+            margin-bottom: 30px;
             font-size: 30px;
             font-weight: bold;
         }
+
+        * {
+                margin: 0;
+             padding: 0;
+            }
     </style>
 </head>
 <body>
@@ -33,7 +41,7 @@
 <p class="currentuser">Address: {{ qs.address }}</p>
 <p class="currentuser">Gender: {{ qs.gender }}</p>
 <p class="currentuser">Pay Per Day: {{ qs.pay_per_day1 }}</p>
-<p class="currentuser">Number of total attendance *insert attendance shit here* </p>
+<p class="currentuser">Number of total attendance: {{ qs2 }} </p>
 <p class="currentuser">Number of Sick Leave: {{ qs.sick_leave }}</p>
 <p class="currentuser">Number of Vacation Leave: {{ qs.vacation_leave }}</p>
 <p class="currentuser">Tax rate Deductions: {{ qs.tax_rate }}</p>
