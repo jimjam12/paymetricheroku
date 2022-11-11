@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<body style="background-color:antiquewhite;">
+<body style="background-color: white;">
 <head>
     <meta charset="UTF-8">
     <title>Attendance</title>
+
+    <style>
+        .timeinout_stamp {
+            margin-left: 220px;
+        }
+
+    </style>
 </head>
 <body>
+
+{% include 'navbar.html' %}
 
     <table align="center" class="userlist">
     <thead>
@@ -25,7 +34,7 @@
         {% endfor %}
     </tbody>
 </table>
-
+<div class="timeinout_stamp">
 {% if query.timeIn and query.timeOut %}
     You have already logged-in and logged-out
 
@@ -35,7 +44,7 @@
 {% elif not query.timeIn and not query.timeOut %}
     <a href="{% url 'clock-in' %}">Time In</a>
 {% endif %}
-
+</div>
 {#{% include 'navbar.html' %}#}
 
 </body>

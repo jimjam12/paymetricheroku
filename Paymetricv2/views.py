@@ -114,7 +114,11 @@ def detailed(request):
     qs = User.objects.get(email=reqEmail)
     qs2 = Attendance.objects.filter(user=request.user).count()
     print(qs2)
-    total = float((qs.pay_per_day1 * qs2) - (qs.pay_per_day1 * (1 - qs.tax_rate)))
+    if not qs.pay_per_day1:
+        total = 0
+    else:
+
+        total = float((qs.pay_per_day1 * qs2) - (qs.pay_per_day1 * (1 - qs.tax_rate)))
     context = {
         'qs': qs,
         'total': total,

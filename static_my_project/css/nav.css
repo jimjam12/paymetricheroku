@@ -1,6 +1,6 @@
 /* The side navigation menu */
 .sidebar {
-  background-color: #463F3A;
+  background-color: #000000;
   margin: 0;
   padding: 0;
   width: 200px;
@@ -9,10 +9,6 @@
   overflow: auto;
 }
 
-.contacthead {
-  margin-left: 600px;
-  font-size: 64px;
-}
 /* Sidebar links */
 .sidebar a {
   display: block;

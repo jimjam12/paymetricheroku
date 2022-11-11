@@ -25,7 +25,7 @@
         {% endif %}
 
         {% if request.user.is_hr %}
-    <a href="{% url 'requests' %}">Employee Requests</a>
+    <a href="{% url 'list_requests' %}">Employee Requests</a>
         {% endif %}
 
     <a href="{% url 'attendance' %}">Attendance</a>

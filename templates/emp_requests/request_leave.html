@@ -2,7 +2,7 @@
 {% load static %}
 <!doctype html>
 <html lang="en" >
-<body style="background-color:antiquewhite;">
+<body style="background-color:white;">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,6 +11,22 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{% static 'css/nav.css' %}">
       <title>Request Leave</title>
+
+      <style>
+          .contacthead {
+             font-size: 48px;
+             width: 50%;
+              margin-left: auto;
+              margin-right: auto;
+              margin-bottom: 70px;
+            }
+
+
+          * {
+                margin: 0;
+             padding: 0;
+            }
+      </style>
       </head>
 
   <body>
@@ -18,7 +34,6 @@
 
     <div class="contacthead">
         Request Leave
-        {{request.user}}
     </div>
 
             <div style="text-align: center; vertical-align: middle">

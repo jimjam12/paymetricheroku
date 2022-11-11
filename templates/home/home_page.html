@@ -18,11 +18,7 @@
               margin-left: 220px;
           }
 
-          .table-info
-          {
-              float: left
-              margin-left: 220px;
-          }
+
 
           table {
         border-collapse: collapse;
@@ -57,15 +53,6 @@
     {% if request.user.is_employee %}
          <div class="text-center">
             <h1>Welcome to Dashboard, {{ request.user }}</h1> <br>
-             <h2>User Profile</h2>
-         <div class="table-info">
-             <table>
-                 <tr>
-                     <th scope="row">Personal Data</th>
-                     <th scope="row">Information</th>
-                 </tr>
-             </table>
-         </div>
          </div>
 
     {% endif %}
